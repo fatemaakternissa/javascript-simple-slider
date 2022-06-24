@@ -1,0 +1,15 @@
+/* Slider Design Start*/
+.container{
+    width: 80%;
+    height:  26rem;
+
+}
+.coursor{
+    width: 100%;
+    height: 100%;
+
+}
+.slider{
+    width: 400%;
+}
+/* Slider Design End */
