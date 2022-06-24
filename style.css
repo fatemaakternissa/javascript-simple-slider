@@ -2,14 +2,59 @@
 .container{
     width: 80%;
     height:  26rem;
+    margin: 0 auto;
+    border: 1px solid black;
 
 }
 .coursor{
     width: 100%;
     height: 100%;
+    overflow: hidden;
+    position: relative;
 
 }
 .slider{
     width: 400%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+
 }
+.slider section{
+    flex-shrink: 100%;
+}
+.btns .prev{
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+.btns .next{
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+
+.coursor .dots{
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+
+}
+
+.dot{
+    width: 0.7rem;
+    height: 0.7rem;
+    border: 1px solid black;
+    border-radius: 100%;
+    background-color: black;
+    margin: 0 0.3rem;
+}
+.active-dot{
+    background-color: #fff;
+}
+
 /* Slider Design End */
