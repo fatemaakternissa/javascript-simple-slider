@@ -3,7 +3,6 @@
     width: 60%;
     height:  26rem;
     margin: 0 auto;
-    border: 1px solid black;
 }
 .coursor{
     width: 100%;
@@ -11,14 +10,13 @@
     overflow: hidden;
     position: relative; 
 }
-.slider{
+.slider {
     width: 400%;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    
-
+    transition: all 0.7s ease;
 }
 .slider .section{
     width: 100%;
